@@ -1,0 +1,38 @@
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  text-align: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  margin: 0;
+}
+
+.calendar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.calendar-nav button {
+  padding: 6px 12px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calendar-nav button:hover {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
